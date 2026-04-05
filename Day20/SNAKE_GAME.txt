@@ -1,0 +1,33 @@
+SNAKE GAME
+
+break down problem into simpler problems
+
+1) Create a snake body
+2) Move the snake
+3) control the snake
+
+4) Detect collision with food
+5)create a scoreboard
+6)detect collision with box
+7)detect collison with any body of itself
+
+
+CLASS INHERITENCE
+Inheritence is basically like creating a new class from an existing class such that the inherited
+ class can have all of the same attributes and methods as the parent class
+plus addional methods/attributes of its own
+
+new sub class can have same method name as parent one but can queak it to it's own means
+
+to inherit class Fish from an existing class Animal 
+syntax would be :
+
+class Fish(Animal):
+   def __init__(self):
+       super.__init__()
+
+
+Files
+        #using file to read high score
+        with open("C:\\Users\\Preksha Asati\\PY\\Day20\\high_score.txt") as data :
+            self.highscore=int(data.read())

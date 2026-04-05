@@ -1,0 +1,13 @@
+Files
+        #using file to read high score
+        with open("C:\\Users\\Preksha Asati\\PY\\Day20\\high_score.txt") as data :
+            self.highscore=int(data.read())
+
+            
+        #wrting on file new score
+        with open("C:\\Users\\Preksha Asati\\PY\\Day20\\high_score.txt",mode="w") as data:
+            data.write(f"{self.highscore}")
+
+txt.readlines()-->takes the txt for each line in file and convert it as a item in a list
+txt.replace (PLACEHOLER,name)-->replacing item in a txt
+txt.strip()-->removing any extra spaces before and the end of the text
